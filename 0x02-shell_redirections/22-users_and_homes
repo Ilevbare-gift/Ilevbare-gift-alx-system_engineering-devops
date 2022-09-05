@@ -1,0 +1,4 @@
+#!/bin/bash
+cat /etc/passwd | sort -k1 | cut -d : -f1,6
+Footer
+
